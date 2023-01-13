@@ -13,11 +13,8 @@ keywords = ["ring", "cyclic", "circular", "buffer", "no-std"]
 categories = ["data-structures"]
 license = "MIT"
 
-[dependencies]
-const_panic = "0.2"
-
 [dev-dependencies]
-criterion = "0.1.2"
+criterion = "0.4.0"
 
 [features]
 default = ["alloc"]
